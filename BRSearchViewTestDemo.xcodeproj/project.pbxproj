@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320917B21C4403AE006DF5C0 /* demo22.gif in Resources */ = {isa = PBXBuildFile; fileRef = 320917B11C4403AE006DF5C0 /* demo22.gif */; };
 		32573C941C4341F1001B9D3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573C931C4341F1001B9D3A /* main.m */; };
 		32573C971C4341F1001B9D3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573C961C4341F1001B9D3A /* AppDelegate.m */; };
 		32573C9A1C4341F1001B9D3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573C991C4341F1001B9D3A /* ViewController.m */; };
@@ -15,6 +16,14 @@
 		32573CA21C4341F1001B9D3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32573CA01C4341F1001B9D3A /* LaunchScreen.storyboard */; };
 		32573CAD1C4341F1001B9D3A /* BRSearchViewTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573CAC1C4341F1001B9D3A /* BRSearchViewTestDemoTests.m */; };
 		32573CB81C4341F1001B9D3A /* BRSearchViewTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573CB71C4341F1001B9D3A /* BRSearchViewTestDemoUITests.m */; };
+		32573CEF1C43D01B001B9D3A /* BRSearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573CE51C43D01B001B9D3A /* BRSearchModel.m */; };
+		32573CF01C43D01B001B9D3A /* BRSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573CE71C43D01B001B9D3A /* BRSearchView.m */; };
+		32573CF11C43D01B001B9D3A /* BRSearchViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32573CE91C43D01B001B9D3A /* BRSearchViewCell.m */; };
+		32573CF21C43D01B001B9D3A /* BRSearchViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32573CEA1C43D01B001B9D3A /* BRSearchViewCell.xib */; };
+		32573CF31C43D01B001B9D3A /* history@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32573CEB1C43D01B001B9D3A /* history@2x.png */; };
+		32573CF41C43D01B001B9D3A /* nav.png in Resources */ = {isa = PBXBuildFile; fileRef = 32573CEC1C43D01B001B9D3A /* nav.png */; };
+		32573CF51C43D01B001B9D3A /* nav@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32573CED1C43D01B001B9D3A /* nav@2x.png */; };
+		32573CF61C43D01B001B9D3A /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32573CEE1C43D01B001B9D3A /* search@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320917B11C4403AE006DF5C0 /* demo22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo22.gif; sourceTree = "<group>"; };
 		32573C8F1C4341F1001B9D3A /* BRSearchViewTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BRSearchViewTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32573C931C4341F1001B9D3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32573C951C4341F1001B9D3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,17 @@
 		32573CB31C4341F1001B9D3A /* BRSearchViewTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BRSearchViewTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32573CB71C4341F1001B9D3A /* BRSearchViewTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BRSearchViewTestDemoUITests.m; sourceTree = "<group>"; };
 		32573CB91C4341F1001B9D3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32573CE41C43D01B001B9D3A /* BRSearchModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSearchModel.h; sourceTree = "<group>"; };
+		32573CE51C43D01B001B9D3A /* BRSearchModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSearchModel.m; sourceTree = "<group>"; };
+		32573CE61C43D01B001B9D3A /* BRSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSearchView.h; sourceTree = "<group>"; };
+		32573CE71C43D01B001B9D3A /* BRSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSearchView.m; sourceTree = "<group>"; };
+		32573CE81C43D01B001B9D3A /* BRSearchViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BRSearchViewCell.h; sourceTree = "<group>"; };
+		32573CE91C43D01B001B9D3A /* BRSearchViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BRSearchViewCell.m; sourceTree = "<group>"; };
+		32573CEA1C43D01B001B9D3A /* BRSearchViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BRSearchViewCell.xib; sourceTree = "<group>"; };
+		32573CEB1C43D01B001B9D3A /* history@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "history@2x.png"; sourceTree = "<group>"; };
+		32573CEC1C43D01B001B9D3A /* nav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav.png; sourceTree = "<group>"; };
+		32573CED1C43D01B001B9D3A /* nav@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav@2x.png"; sourceTree = "<group>"; };
+		32573CEE1C43D01B001B9D3A /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,7 @@
 		32573C911C4341F1001B9D3A /* BRSearchViewTestDemo */ = {
 			isa = PBXGroup;
 			children = (
+				32573CE31C43D01B001B9D3A /* BRSearchView */,
 				32573C951C4341F1001B9D3A /* AppDelegate.h */,
 				32573C961C4341F1001B9D3A /* AppDelegate.m */,
 				32573C981C4341F1001B9D3A /* ViewController.h */,
@@ -138,6 +160,25 @@
 				32573CB91C4341F1001B9D3A /* Info.plist */,
 			);
 			path = BRSearchViewTestDemoUITests;
+			sourceTree = "<group>";
+		};
+		32573CE31C43D01B001B9D3A /* BRSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				32573CE41C43D01B001B9D3A /* BRSearchModel.h */,
+				32573CE51C43D01B001B9D3A /* BRSearchModel.m */,
+				32573CE61C43D01B001B9D3A /* BRSearchView.h */,
+				32573CE71C43D01B001B9D3A /* BRSearchView.m */,
+				32573CE81C43D01B001B9D3A /* BRSearchViewCell.h */,
+				32573CE91C43D01B001B9D3A /* BRSearchViewCell.m */,
+				32573CEA1C43D01B001B9D3A /* BRSearchViewCell.xib */,
+				32573CEB1C43D01B001B9D3A /* history@2x.png */,
+				32573CEC1C43D01B001B9D3A /* nav.png */,
+				32573CED1C43D01B001B9D3A /* nav@2x.png */,
+				32573CEE1C43D01B001B9D3A /* search@2x.png */,
+				320917B11C4403AE006DF5C0 /* demo22.gif */,
+			);
+			path = BRSearchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +284,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32573CF61C43D01B001B9D3A /* search@2x.png in Resources */,
+				32573CF51C43D01B001B9D3A /* nav@2x.png in Resources */,
 				32573CA21C4341F1001B9D3A /* LaunchScreen.storyboard in Resources */,
+				32573CF31C43D01B001B9D3A /* history@2x.png in Resources */,
 				32573C9F1C4341F1001B9D3A /* Assets.xcassets in Resources */,
+				320917B21C4403AE006DF5C0 /* demo22.gif in Resources */,
+				32573CF41C43D01B001B9D3A /* nav.png in Resources */,
+				32573CF21C43D01B001B9D3A /* BRSearchViewCell.xib in Resources */,
 				32573C9D1C4341F1001B9D3A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +318,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32573C9A1C4341F1001B9D3A /* ViewController.m in Sources */,
+				32573CEF1C43D01B001B9D3A /* BRSearchModel.m in Sources */,
 				32573C971C4341F1001B9D3A /* AppDelegate.m in Sources */,
+				32573CF01C43D01B001B9D3A /* BRSearchView.m in Sources */,
+				32573CF11C43D01B001B9D3A /* BRSearchViewCell.m in Sources */,
 				32573C941C4341F1001B9D3A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +546,7 @@
 				32573CBE1C4341F1001B9D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32573CBF1C4341F1001B9D3A /* Build configuration list for PBXNativeTarget "BRSearchViewTestDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +555,7 @@
 				32573CC11C4341F1001B9D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32573CC21C4341F1001B9D3A /* Build configuration list for PBXNativeTarget "BRSearchViewTestDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +564,7 @@
 				32573CC41C4341F1001B9D3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

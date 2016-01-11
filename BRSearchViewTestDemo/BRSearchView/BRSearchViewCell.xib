@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BRSearchViewCell" id="KGk-i7-Jjw" customClass="BRSearchViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="history.png" translatesAutoresizingMaskIntoConstraints="NO" id="gzE-qv-RmV">
+                        <rect key="frame" x="15" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Hy4-fv-RZE"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网鱼网咖" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TLV-Fd-gZu">
+                        <rect key="frame" x="50" y="12" width="255" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gzE-qv-RmV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="O6N-P7-3zA"/>
+                    <constraint firstItem="TLV-Fd-gZu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="brK-ut-CqC"/>
+                    <constraint firstAttribute="trailing" secondItem="TLV-Fd-gZu" secondAttribute="trailing" constant="15" id="bvz-FT-wiA"/>
+                    <constraint firstAttribute="bottom" secondItem="TLV-Fd-gZu" secondAttribute="bottom" constant="12" id="edP-VQ-XDR"/>
+                    <constraint firstItem="gzE-qv-RmV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="mkr-af-mW6"/>
+                    <constraint firstAttribute="bottom" secondItem="gzE-qv-RmV" secondAttribute="bottom" constant="12" id="nDV-Gs-lb5"/>
+                    <constraint firstItem="TLV-Fd-gZu" firstAttribute="leading" secondItem="gzE-qv-RmV" secondAttribute="trailing" constant="15" id="t7G-2D-Kvo"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImgView" destination="gzE-qv-RmV" id="MTS-KQ-WbY"/>
+                <outlet property="nameLabel" destination="TLV-Fd-gZu" id="rXj-xa-cVh"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="history.png" width="14" height="14"/>
+    </resources>
+</document>

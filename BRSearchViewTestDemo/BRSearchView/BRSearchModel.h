@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BRSearchModel : NSObject
+@interface BRSearchModel : NSObject <NSCoding>
+
+@property (nonatomic, strong) NSString *uid;
+@property (nonatomic, strong) NSString *name;
 
 @end
