@@ -11,7 +11,7 @@ Xcode7.1
     
     
 # 效果预览
-![image](https://github.com/guoshimeihua/CityPickerViewController/blob/master/CityPickerViewController/demo16.gif)
+![image](https://github.com/guoshimeihua/BRSearchView/blob/master/BRSearchViewTestDemo/BRSearchView/demo22.gif)
 
 # 使用说明
 ### 1.导入
